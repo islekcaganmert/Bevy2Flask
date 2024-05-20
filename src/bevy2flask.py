@@ -1,7 +1,7 @@
-from bevy2flask.widgets import *
-from bevy2flask import Frame as superFrame
-from bevy2flask import *
-from bevy2flask.login import *
+from bevyframe.widgets import *
+from bevyframe import Frame as superFrame
+from bevyframe import *
+from bevyframe.login import *
 from flask import Flask, request, Response as flaskResp
 import importlib.util
 import importlib
