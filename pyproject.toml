@@ -1,0 +1,30 @@
+[project]
+name = "Bevy2Flask"
+version = "0.0.0"
+description = "The module that plays between Flask and BevyFrame to let people use their apps in production using any WSGI runtime out there."
+readme = "README.md"
+license = {text = "LGPL-3.0"}
+maintainers = [{name = "Çağan Mert İŞLEK", email = "islekcaganmert@gmail.com"}]
+classifiers = [
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GPL-3.0 License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Internet :: WWW/HTTP :: Application",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+requires-python = ">=3.9"
+dependencies = ["flask", "pyjwt"]
+
+[project.urls]
+Donate = "https://www.buymeacoffee.com/islekcaganmert"
+Documentation = "https://github.com/islekcaganmert/Bevy2Flask/wiki"
+Changes = "https://github.com/islekcaganmert/Bevy2Flask/commits/main"
+"Source Code" = "https://github.com/islekcaganmert/Bevy2Flask"
+"Issue Tracker" = "https://github.com/islekcaganmert/Bevy2Flask/issues"
+
+[build-system]
+requires = ["setuptools","wheel"]
+build-backend = "setuptools.build_meta"
